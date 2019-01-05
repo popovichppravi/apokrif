@@ -22,10 +22,10 @@
 
     </div>
     <!--//HEADER-->
-    
+
     <!--PAGE CONTENT-->
     <div class="page-content">
-      <h1>Hello, world!</h1>      
+      <h1>Test</h1>      
     </div>
     <!--PAGE CONTENT-->
 
