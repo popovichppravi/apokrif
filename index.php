@@ -10,8 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" >
     <!-- Template CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css" >
-
+    <link rel="stylesheet" href="template_styles.css" >
+    <!-- Media CSS -->
+    <link rel="stylesheet" href="css/media.css">
     <!--Удалить-->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     <!--//Удалить-->
@@ -20,7 +21,7 @@
     <!--HEADER-->
     <div class="header">
 <ul>
-  <li><a href="#">124</a></li>
+  <li><a href="#">128</a></li>
   <li><a href="#">123</a></li>
   <li><a href="#">123</a></li>
 </ul>
