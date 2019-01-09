@@ -20,13 +20,26 @@
   <body>
     <!--HEADER-->
     <div class="header">
-<ul>
-  <li><a href="#">128</a></li>
-  <li><a href="#">123</a></li>
-  <li><a href="#">123</a></li>
-</ul>
-
-
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="top-logo">
+              <img src="images/logo.png" />
+            </div>
+          </div>
+          <div class="col-md-6 text-left">
+            <!--TOP WHEATHER-->
+              <?include("include/top_weather.php");?>
+            <!--//TOP WHEATHER-->
+            <?//echo "<pre>"; print_r($array); echo "</pre>";?>
+          </div>
+        </div>
+        <ul>
+          <li><a href="#">1282</a></li>
+          <li><a href="#">123</a></li>
+          <li><a href="#">123</a></li>
+        </ul>
+      </div>
     </div>
     <!--//HEADER-->
 
