@@ -20,5 +20,5 @@ if($data) {
 };
 ?>
 <div class="top-weather">
-<span>Погода:</span><img class="weather-ico" src="images/weather/<?=$icon_name?>.svg" alt="" title=""/><span class="temp-now"><?=$temp_now;?>&deg;</span><span class="day-weather">вечером <?=$temp_evn?>&deg;, ночью <?=$temp_night?>&deg;</span>
+<span>ПОГОДА:</span><img class="weather-ico" src="images/weather/<?=$icon_name?>.svg" alt="" title=""/><span class="temp-now"><?=$temp_now;?>&deg;</span> <span class="day-weather">вечером <?=$temp_evn?>&deg;, ночью <?=$temp_night?>&deg;</span>
 </div>
