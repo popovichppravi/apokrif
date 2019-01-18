@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/fonts.css" >
     <link rel="stylesheet" href="fonts/socicon/style.css">
     <link rel="stylesheet" href="fonts/robotoslab/robotoslab.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" >
     <!-- Template CSS -->
@@ -63,7 +64,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row city-weather">
               <div class="col-md-12">
                 <div class="top-city-name">Санкт-Петербург</div>
                 <a href="#" class="change-top-city">Другой город?</a>
@@ -110,7 +111,7 @@
     <div class="page-content">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 left-sidebar">
+          <div class="col-md-3 left-sidebar">
             <!--IMPORTAN NEWS-->
             <div class="item-img-bg important-mark">
               <div class="top-mark-title flash">Важно</div>
@@ -181,6 +182,18 @@
                   <div class="time">10:32</div>
                   <a href="#">В это время организаторы конкурса «Мисс Америка» исключили из программы шоу дефиле в купальниках, а крупные производители... </a>
                 </div>
+                <div class="nl-item important">
+                  <div class="time">10:32</div>
+                  <a href="#">185 лет назад Николаю I впервые представили написанное по его требованию произведение «Молитва... </a>
+                </div>
+                <div class="nl-item">
+                  <div class="time">10:32</div>
+                  <a href="#">В это время организаторы конкурса «Мисс Америка» исключили из программы шоу дефиле в купальниках, а крупные производители... </a>
+                </div>
+                <div class="nl-item">
+                  <div class="time">10:32</div>
+                  <a href="#">В это время организаторы конкурса «Мисс Америка» исключили из программы шоу дефиле в купальниках, а крупные производители... </a>
+                </div>
               </div>
             </div>
             <!--SIDEBAR BANNER-->
@@ -193,7 +206,7 @@
               <div class="marked-info"></div>
             </div>
           </div>
-          <div class="col-md-8 pd-l-0">
+          <div class="col-md-9">
            <!--TWO ITEMS TOP-->
             <div class="shadow-block default-mark news-today-main">
               <div class="top-mark-title">Новости сегодня</div>
@@ -377,15 +390,15 @@
             <!--3 ITEMS TOP-->
             <div class="row m-tb-25">
               <div class="col-md-4">
-                <div class="info-item empty-mark">
-                  <div class="top-mark-title">&nbsp;</div>
+                <div class="info-item important-mark">
+                  <div class="top-mark-title">Реклама</div>
                   <div class="item-inner" style="background:url('images/banner_2.png'); background-size: cover;">
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="info-item empty-mark important-mark">
-                  <div class="top-mark-title">&nbsp;</div>
+                <div class="info-item important-mark">
+                  <div class="top-mark-title">Яндекс директ</div>
                   <div class="item-inner">
                     <a href="#" class="item-img"><img src="images/img12.png" alt=""></a>
                     <div class="item-inner-info">
@@ -395,7 +408,7 @@
                     <div class="bottom-info-inner">
                       <div class="bi-inner">
                         <a href="#">
-                          <img src="images/tcs.png" alt=""><span>tinkoff.ru</span>
+                          <img src="images/tcs.png" alt=""><span>tinkoff.ru</span><i class="fa fa-external-link" aria-hidden="true"></i>
                         </a>
                       </div>
                     </div>
@@ -419,7 +432,7 @@
                     <div class="bottom-info-inner">
                       <div class="bi-inner">
                         <a href="#">
-                          <img src="images/dom2.png" alt=""><span>dom2.ru</span>
+                          <img src="images/dom2.png" alt=""><span>dom2.ru</span><i class="fa fa-external-link" aria-hidden="true"></i>
                         </a>
                       </div>
                     </div>
@@ -491,7 +504,7 @@
 <p>Учредитель: ООО «Апокриф»</p>
 <p>Адрес учредителя: 125239, Россия, Москва, Коптевская улица, дом 67</p>
 <p>Адрес редакции и издателя: 117105, г. Москва, Варшавское шоссе, д.9, стр.1</p>
-<p>Телефон: +7 (495) 785-00-12 Факс: +7 (495) 785-17-01</p>
+<p>Телефон: +7 (495) 785-00-12<br />Факс: +7 (495) 785-17-01</p>
           </div>
           <div class="col-md-6">
               <div class="apps">

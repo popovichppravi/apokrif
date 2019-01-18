@@ -38,6 +38,28 @@ margin-bottom: 25px;
 /*
 * HEADER
 */
+.header
+{
+  width: 100%;
+  background: #fff;
+}
+.fixed-header
+{
+  z-index: 1000;
+}
+.fixed-header .top-day,
+.fixed-header .top-rate,
+.fixed-header .city-weather,
+.fixed-header .top-links
+{
+  display: none;
+}
+.fixed-header .top-logo img
+{
+  max-height: 30px;
+width: auto;
+transition: 0.3s;
+}
 .top-header
 {
   padding: 15px 0;
@@ -45,7 +67,7 @@ margin-bottom: 25px;
 .top-logo img
 {
   max-width: 570px;
-  width: 100%;
+  transition: 0.3s;
 }
 .top-day::after
 {
@@ -236,15 +258,10 @@ padding: 0 6px;
 {
   display: block;
   margin: 25px 0;
-  padding: 0 30px;
 }
 .sidebar-banner img
 {
   width: 100%;
-}
-.left-sidebar
-{
-  padding-right: 35px;
 }
 .page-content
 {
@@ -253,23 +270,23 @@ padding: 0 6px;
 .item-img-bg
 {
   position: relative;
-  -webkit-border-bottom-right-radius: 10px;
--webkit-border-bottom-left-radius: 10px;
--moz-border-radius-bottomright: 10px;
--moz-border-radius-bottomleft: 10px;
-border-bottom-right-radius: 10px;
-border-bottom-left-radius: 10px;
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .item-img-bg img.ii-img
 {
   width: 100%;
-  -webkit-border-bottom-right-radius: 10px;
--webkit-border-bottom-left-radius: 10px;
--moz-border-radius-bottomright: 10px;
--moz-border-radius-bottomleft: 10px;
-border-bottom-right-radius: 10px;
-border-bottom-left-radius: 10px;
+}
+.item-img-bg img.ii-img,
+.item-img-bg,
+.item-inner,
+.news-today-main
+{
+  -webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
 }
 .item-img-bg .inner-info
 {
@@ -331,11 +348,11 @@ border-bottom-left-radius: 10px;
 {
   position: relative;
   font-family: 'Roboto Slab';
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
-  padding: 5px 20px;
+  padding: 5px 10px;
   font-size: 15px;
 }
 /*
@@ -359,7 +376,7 @@ border-bottom-left-radius: 10px;
 text-decoration: none;
 color: #000;
 font-family: "RobotoLight";
-font-size: 16px;
+font-size: 14px;
 }
 .nl-item a:hover
 {
@@ -452,7 +469,7 @@ font-size: 13px;
 .links-list li
 {
   margin-bottom: 5px;
-  line-height: 1;
+  line-height: 1.2;
 }
 .links-list li:last-child
 {
@@ -486,6 +503,11 @@ width: 100%;
   padding-top: 10px;
   width: 100%;
   display: inline-block;
+}
+.bi-inner i.fa-external-link
+{
+  float: right;
+  margin-top: 5px;
 }
 .bottom-info-inner img
 {
