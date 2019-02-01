@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
   <head>
-    <title>Главная</title>
+    <title>Раздел</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -209,39 +209,17 @@
           <div class="col-md-9">
            <!--TWO ITEMS TOP-->
             <div class="shadow-block default-mark">
-              <div class="top-mark-title">Новости сегодня</div>
-              <div class="marked-info shadow-inner">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="item-img-bg">
-                        <img class="ii-img" src="images/img2.png" alt="" title="">
-                        <div class="inner-info">
-                          <div class="ii-date">10:50</div>
-                          <div class="ii-title">В мэрии Екатеринбурга назначат «нового Тунгусова»</div>
-                          <div class="ii-auth">ТАСС</div>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="item-img-bg">
-                        <img class="ii-img" src="images/img3.png" alt="" title="">
-                        <div class="inner-info">
-                          <div class="ii-date">10:50</div>
-                          <div class="ii-title">В мэрии Екатеринбурга назначат «нового Тунгусова»</div>
-                          <div class="ii-auth">ТАСС</div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="top-mark-title">Аналитика</div>
+              <div class="marked-info">
               </div>
             </div>
             <!--//TWO ITEMS TOP-->
 
             <!--3 ITEMS TOP-->
-            <div class="row m-tb-25">
+            <div class="row m-b-25">
               <div class="col-md-4">
-                <div class="info-item default-mark">
-                  <div class="top-mark-title">Политика</div>
+                <div class="info-item default-mark empty-mark">
+                  <div class="top-mark-title">&nbsp;</div>
                   <div class="item-inner">
                     <a href="#" class="item-img"><img src="images/img4.png" alt=""></a>
                     <div class="item-inner-info">
@@ -254,8 +232,8 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="info-item default-mark">
-                  <div class="top-mark-title">Культура</div>
+                <div class="info-item default-mark empty-mark">
+                  <div class="top-mark-title">&nbsp;</div>
                   <div class="item-inner">
                     <a href="#" class="item-img"><img src="images/img5.png" alt=""></a>
                     <div class="item-inner-info">
@@ -268,30 +246,29 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="info-item important-mark">
-                  <div class="top-mark-title">Медиаметрикс</div>
+                <div class="info-item default-mark empty-mark">
+                  <div class="top-mark-title">&nbsp;</div>
                   <div class="item-inner">
+                    <a href="#" class="item-img"><img src="images/img4.png" alt=""></a>
                     <div class="item-inner-info">
-                        <ul class="links-list">
-                          <li><a href="#"> <img src="images/favicons/fa1.png" alt=""> <span class="item-time">10:32.</span> <span>«Кинопоиск» назвал лучшие сериалы года…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa2.png" alt=""> <span class="item-time">10:32.</span> <span>Инцидент с упавшим во время рейса кондуктором прокомментировали в ИПОПАТ…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa3.png" alt=""> <span class="item-time">10:32.</span> <span>Скончалась девушка, выпавшая из окна многоэтажки на Соминке…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa4.png" alt=""> <span class="item-time">10:32.</span> <span>ВС разъяснил, когда опьянение не является отягчающим обстоятельством…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa5.png" alt=""> <span class="item-time">10:32.</span> <span>В Британии сняли с мели российский сухогруз…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa2.png" alt=""> <span class="item-time">10:32.</span> <span>«Кинопоиск» назвал лучшие сериалы года…</span></a></li>
-                        </ul>
+                      <div class="item-time">10:32</div>
+                      <a href="#" class="item-name">Бензиновая диета: на сколько подорожают продукты</a>
+                      <a href="#" class="item-auth">ТАСС</a>
+                      <div class="item-prev">Ситуация на российском рынке топлива грозит простым потребителям ростом цен в магазинах, в первую... </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <!--//3 ITEMS TOP-->
+            <div class="middle-banner m-b-25">
+              <img src="images/banner.png" alt="">
+            </div>
 
              <!--TWO ITEMS MIDDLE-->
-            <div class="row m-tb-25">
+            <div class="row m-b-25">
               <div class="col-md-6">
                 <div class="item-img-bg default-mark">
-                  <div class="top-mark-title">Политика</div>
                     <img class="ii-img" src="images/img6.png" alt="" title="">
                     <div class="inner-info">
                       <div class="ii-date">10:50</div>
@@ -302,7 +279,6 @@
               </div>
               <div class="col-md-6">
                 <div class="item-img-bg default-mark">
-                  <div class="top-mark-title">Спорт</div>
                     <img class="ii-img" src="images/img7.png" alt="" title="">
                     <div class="inner-info">
                       <div class="ii-date">10:50</div>
@@ -315,10 +291,9 @@
              <!--TWO ITEMS MIDDLE-->
 
             <!--3 ITEMS TOP-->
-            <div class="row">
+            <div class="row m-b-25">
               <div class="col-md-4">
-                <div class="info-item default-mark">
-                  <div class="top-mark-title">Политика</div>
+                <div class="info-item default-mark empty-mark">
                   <div class="item-inner">
                     <a href="#" class="item-img"><img src="images/img4.png" alt=""></a>
                     <div class="item-inner-info">
@@ -331,19 +306,13 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="item-img-bg info-item auth-mark">
-              <div class="top-mark-title">Авторская колонка</div>
-              <div class="marked-info item-inner" style="background:url('images/img9.png'); background-size: cover;">
-                <div class="inner-info">
-                  <div class="ii-date">10:50</div>
-                  <div class="ii-title">Денис Токарский<br /><br /><small>В МЭРИИ ЕКАТЕРИНБУРГА НАЗНАЧАТ «НОВОГО ТУНГУСОВА»</small></div>
+                <div class="info-item important-mark empty-mark">
+                  <div class="item-inner" style="background:url('images/banner_2.png'); background-size: cover;">
+                  </div>
                 </div>
               </div>
-            </div>
-              </div>
               <div class="col-md-4">
-                <div class="info-item default-mark">
-                  <div class="top-mark-title">Общество</div>
+                <div class="info-item default-mark empty-mark">
                   <div class="item-inner">
                     <a href="#" class="item-img"><img src="images/img11.png" alt=""></a>
                     <div class="item-inner-info">
@@ -357,14 +326,13 @@
               </div>
             </div>
             <!--//3 ITEMS TOP-->
-            <div class="middle-banner m-tb-25">
+            <div class="middle-banner m-b-25">
               <img src="images/banner.png" alt="">
             </div>
-            <!--TWO ITEMS BOTTOM-->
-           <div class="row m-tb-25">
+            <!--TWO ITEMS MIDDLE-->
+           <div class="row m-b-25">
              <div class="col-md-6">
                <div class="item-img-bg default-mark">
-                 <div class="top-mark-title">Политика</div>
                    <img class="ii-img" src="images/img6.png" alt="" title="">
                    <div class="inner-info">
                      <div class="ii-date">10:50</div>
@@ -374,8 +342,7 @@
                </div>
              </div>
              <div class="col-md-6">
-               <div class="item-img-bg important-mark">
-                 <div class="top-mark-title">Новости партнёров</div>
+               <div class="item-img-bg default-mark">
                    <img class="ii-img" src="images/img7.png" alt="" title="">
                    <div class="inner-info">
                      <div class="ii-date">10:50</div>
@@ -385,62 +352,47 @@
                </div>
              </div>
            </div>
-            <!--TWO ITEMS BOTTOM-->
+            <!--TWO ITEMS MIDDLE-->
 
-            <!--3 ITEMS TOP-->
-            <div class="row m-tb-25">
-              <div class="col-md-4">
-                <div class="info-item important-mark">
-                  <div class="top-mark-title">Реклама</div>
-                  <div class="item-inner" style="background:url('images/banner_2.png'); background-size: cover;">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="info-item important-mark">
-                  <div class="top-mark-title">Яндекс директ</div>
-                  <div class="item-inner">
-                    <a href="#" class="item-img"><img src="images/img12.png" alt=""></a>
-                    <div class="item-inner-info">
-                      <a href="#" class="item-name">Тинькофф Платинум</a>
-                      <div class="item-prev">Кредитная карта с лимитом до 300 000 Р. Ставка от 12%. Без процентов до 12 месяцев…</div>
-                    </div>
-                    <div class="bottom-info-inner">
-                      <div class="bi-inner">
-                        <a href="#">
-                          <img src="images/tcs.png" alt=""><span>tinkoff.ru</span><i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="info-item important-mark">
-                  <div class="top-mark-title">Новости ДОМ2</div>
-                  <div class="item-inner">
-                    <div class="item-inner-info">
-                        <ul class="links-list">
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>«Кинопоиск» назвал лучшие сериалы года…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>Инцидент с упавшим во время рейса кондуктором прокомментировали в ИПОПАТ…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>Скончалась девушка, выпавшая из окна многоэтажки на Соминке…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>ВС разъяснил, когда опьянение не является отягчающим обстоятельством…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>В Британии сняли с мели российский сухогруз…</span></a></li>
-
-                        </ul>
-                    </div>
-                    <div class="bottom-info-inner">
-                      <div class="bi-inner">
-                        <a href="#">
-                          <img src="images/dom2.png" alt=""><span>dom2.ru</span><i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--//3 ITEMS TOP-->
+           <!--3 ITEMS TOP-->
+           <div class="row m-b-25">
+             <div class="col-md-4">
+               <div class="info-item default-mark empty-mark">
+                 <div class="item-inner">
+                   <a href="#" class="item-img"><img src="images/img4.png" alt=""></a>
+                   <div class="item-inner-info">
+                     <div class="item-time">10:32</div>
+                     <a href="#" class="item-name">Бензиновая диета: на сколько подорожают продукты</a>
+                     <a href="#" class="item-auth">ТАСС</a>
+                     <div class="item-prev">Ситуация на российском рынке топлива грозит простым потребителям ростом цен в магазинах, в первую... </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="info-item important-mark empty-mark">
+                 <div class="item-inner" style="background:url('images/banner_2.png'); background-size: cover;">
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="info-item default-mark empty-mark">
+                 <div class="item-inner">
+                   <a href="#" class="item-img"><img src="images/img11.png" alt=""></a>
+                   <div class="item-inner-info">
+                     <div class="item-time">10:32</div>
+                     <a href="#" class="item-name">Бензиновая диета: на сколько подорожают продукты</a>
+                     <a href="#" class="item-auth">ТАСС</a>
+                     <div class="item-prev">Ситуация на российском рынке топлива грозит простым потребителям ростом цен в магазинах, в первую... </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <!--//3 ITEMS TOP-->
+           <div class="middle-banner m-b-25">
+             <img src="images/banner.png" alt="">
+           </div>
 
           </div>
         </div>

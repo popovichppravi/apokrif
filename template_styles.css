@@ -25,6 +25,10 @@ input:active
 margin-top: 25px;
 margin-bottom: 25px;
 }
+.m-b-25
+{
+margin-bottom: 25px;
+}
 .tabl
 {
   display: table;
@@ -270,7 +274,7 @@ padding: 0 6px;
 .page-info
 {
   font-size: 16px;
-  font-family: "RobotoLight";  
+  font-family: "RobotoLight";
 }
 .article-top-info
 {
@@ -293,6 +297,10 @@ margin-bottom: 15px;
 {
   position: relative;
   margin-bottom: 20px;
+}
+.m-b-25 .item-img-bg
+{
+  margin-bottom: 0;
 }
 .item-img-bg img.ii-img
 {
@@ -339,6 +347,25 @@ border-bottom-left-radius: 5px;
   font-weight: 300;
   margin-top: 10px;
   text-decoration: underline;
+}
+.middle-banner
+{
+  display: inline-block;
+}
+/*
+* AUTHOR
+*/
+.author-prof
+{
+  font-size: 24px;
+      font-family: "RobotoLight";
+      margin: 20px 0 15px 0;
+}
+.auth-photo img
+{
+  -webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+border-radius: 100%;
 }
 /*
 *ITEM WITH MARK

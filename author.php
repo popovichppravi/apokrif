@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="ru">
   <head>
-    <title>Главная</title>
+    <title>Автор</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--JQUERY-->
+    <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Fonts CSS -->
     <link rel="stylesheet" href="css/fonts.css" >
     <link rel="stylesheet" href="fonts/socicon/style.css">
@@ -79,14 +81,14 @@
           </div>
           <div class="top-menu">
              <ul>
-               <li class="active"><a href="#">Главное за сегодня</a></li>
+               <li><a href="#">Главное за сегодня</a></li>
                <li><a href="#">Новости</a></li>
                <li><a href="#">Аналитика</a></li>
                <li><a href="#">Россия</a></li>
                <li><a href="#">Заграница</a></li>
                <li><a href="#">Проекты</a></li>
                <li><a href="#">Архив</a></li>
-               <li><a href="#">Фотогалерея</a></li>
+               <li class="active"><a href="#">Фотогалерея</a></li>
                <li><a href="#">Видео блог</a></li>
              </ul>
              <div class="top-search">
@@ -207,36 +209,49 @@
             </div>
           </div>
           <div class="col-md-9">
-           <!--TWO ITEMS TOP-->
+           <!--ABOUT AUTHOR-->
             <div class="shadow-block default-mark">
-              <div class="top-mark-title">Новости сегодня</div>
+              <div class="top-mark-title">Автор</div>
               <div class="marked-info shadow-inner">
                 <div class="row">
-                  <div class="col-md-6">
-                    <div class="item-img-bg">
-                        <img class="ii-img" src="images/img2.png" alt="" title="">
-                        <div class="inner-info">
-                          <div class="ii-date">10:50</div>
-                          <div class="ii-title">В мэрии Екатеринбурга назначат «нового Тунгусова»</div>
-                          <div class="ii-auth">ТАСС</div>
-                        </div>
+                  <div class="col-lg-4">
+                    <div class="auth-photo">
+                      <img src="images/author.png" alt="">
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="item-img-bg">
-                        <img class="ii-img" src="images/img3.png" alt="" title="">
-                        <div class="inner-info">
-                          <div class="ii-date">10:50</div>
-                          <div class="ii-title">В мэрии Екатеринбурга назначат «нового Тунгусова»</div>
-                          <div class="ii-auth">ТАСС</div>
-                        </div>
+                  <div class="col-lg-8">
+                    <h1>Денис Евгеньевич Токарский</h1>
+                    <div class="article-top-info">
+                      <a class="ico-txt mr15" href="#">
+                        <i><img src="images/mark.png" alt="" title=""></i><span>Главный редактор</span>
+                      </a>
+                    </div>
+                    <div class="author-prof">Секретарь Союза журналистов, издатель еженедельника «МК-Урал»</div>
+                    <div class="page-info">
+                      <p>Родился 8 июля 1978 г. в Екатеринбурге. В 2000 г. окончил Уральский Государственный Университет по специальности «Биолог». В 2003 г. окончил Уральский Государственный Технический Университет по специальности «Инженер-экономист. Менеджер». Работал в ряде уральских средств массовой информации: 1999 г. – репортер газеты «Вечерние Ведомости из Екатеринбурга». С июля 1999 по октябрь 2000 гг. – репортер информационного агентства</p>
                     </div>
                   </div>
                 </div>
+                <!--BOTOM ARTICLE INFO-->
+                <div class="article-top-info">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <a class="ico-txt mr15" href="#">
+                        <i class="fa fa-camera-retro" aria-hidden="true"></i><span>Владимир Шамшурин</span>
+                      </a>
+                    </div>
+                    <div class="col-md-6 text-right">
+                    </div>
+                  </div>
+                </div>
+                <!--//-->
               </div>
             </div>
-            <!--//TWO ITEMS TOP-->
-
+            <!--//-->
+            <div class="shadow-block default-mark m-tb-25">
+              <div class="top-mark-title">Все публикации автора</div>
+              <div class="marked-info"></div>
+            </div>
             <!--3 ITEMS TOP-->
             <div class="row m-tb-25">
               <div class="col-md-4">
@@ -286,77 +301,6 @@
               </div>
             </div>
             <!--//3 ITEMS TOP-->
-
-             <!--TWO ITEMS MIDDLE-->
-            <div class="row m-tb-25">
-              <div class="col-md-6">
-                <div class="item-img-bg default-mark">
-                  <div class="top-mark-title">Политика</div>
-                    <img class="ii-img" src="images/img6.png" alt="" title="">
-                    <div class="inner-info">
-                      <div class="ii-date">10:50</div>
-                      <div class="ii-title">Рейв в Минске 90-х, грязь и ведьмы в театре, Франсуа Озон в Москве</div>
-                      <div class="ii-auth">Арсений Тарковский</div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="item-img-bg default-mark">
-                  <div class="top-mark-title">Спорт</div>
-                    <img class="ii-img" src="images/img7.png" alt="" title="">
-                    <div class="inner-info">
-                      <div class="ii-date">10:50</div>
-                      <div class="ii-title">Мутко лишился поста. Награда нашла героя</div>
-                      <div class="ii-auth">Арсений Тарковский</div>
-                    </div>
-                </div>
-              </div>
-            </div>
-             <!--TWO ITEMS MIDDLE-->
-
-            <!--3 ITEMS TOP-->
-            <div class="row">
-              <div class="col-md-4">
-                <div class="info-item default-mark">
-                  <div class="top-mark-title">Политика</div>
-                  <div class="item-inner">
-                    <a href="#" class="item-img"><img src="images/img4.png" alt=""></a>
-                    <div class="item-inner-info">
-                      <div class="item-time">10:32</div>
-                      <a href="#" class="item-name">Бензиновая диета: на сколько подорожают продукты</a>
-                      <a href="#" class="item-auth">ТАСС</a>
-                      <div class="item-prev">Ситуация на российском рынке топлива грозит простым потребителям ростом цен в магазинах, в первую... </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="item-img-bg info-item auth-mark">
-              <div class="top-mark-title">Авторская колонка</div>
-              <div class="marked-info item-inner" style="background:url('images/img9.png'); background-size: cover;">
-                <div class="inner-info">
-                  <div class="ii-date">10:50</div>
-                  <div class="ii-title">Денис Токарский<br /><br /><small>В МЭРИИ ЕКАТЕРИНБУРГА НАЗНАЧАТ «НОВОГО ТУНГУСОВА»</small></div>
-                </div>
-              </div>
-            </div>
-              </div>
-              <div class="col-md-4">
-                <div class="info-item default-mark">
-                  <div class="top-mark-title">Общество</div>
-                  <div class="item-inner">
-                    <a href="#" class="item-img"><img src="images/img11.png" alt=""></a>
-                    <div class="item-inner-info">
-                      <div class="item-time">10:32</div>
-                      <a href="#" class="item-name">Бензиновая диета: на сколько подорожают продукты</a>
-                      <a href="#" class="item-auth">ТАСС</a>
-                      <div class="item-prev">Ситуация на российском рынке топлива грозит простым потребителям ростом цен в магазинах, в первую... </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--//3 ITEMS TOP-->
             <div class="middle-banner m-tb-25">
               <img src="images/banner.png" alt="">
             </div>
@@ -386,61 +330,62 @@
              </div>
            </div>
             <!--TWO ITEMS BOTTOM-->
-
+            <div class="middle-banner m-tb-25">
+              <img src="images/banner.png" alt="">
+            </div>
             <!--3 ITEMS TOP-->
             <div class="row m-tb-25">
               <div class="col-md-4">
-                <div class="info-item important-mark">
-                  <div class="top-mark-title">Реклама</div>
-                  <div class="item-inner" style="background:url('images/banner_2.png'); background-size: cover;">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="info-item important-mark">
-                  <div class="top-mark-title">Яндекс директ</div>
+                <div class="info-item default-mark">
+                  <div class="top-mark-title">Политика</div>
                   <div class="item-inner">
-                    <a href="#" class="item-img"><img src="images/img12.png" alt=""></a>
+                    <a href="#" class="item-img"><img src="images/img4.png" alt=""></a>
                     <div class="item-inner-info">
-                      <a href="#" class="item-name">Тинькофф Платинум</a>
-                      <div class="item-prev">Кредитная карта с лимитом до 300 000 Р. Ставка от 12%. Без процентов до 12 месяцев…</div>
+                      <div class="item-time">10:32</div>
+                      <a href="#" class="item-name">Бензиновая диета: на сколько подорожают продукты</a>
+                      <a href="#" class="item-auth">ТАСС</a>
+                      <div class="item-prev">Ситуация на российском рынке топлива грозит простым потребителям ростом цен в магазинах, в первую... </div>
                     </div>
-                    <div class="bottom-info-inner">
-                      <div class="bi-inner">
-                        <a href="#">
-                          <img src="images/tcs.png" alt=""><span>tinkoff.ru</span><i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="info-item default-mark">
+                  <div class="top-mark-title">Культура</div>
+                  <div class="item-inner">
+                    <a href="#" class="item-img"><img src="images/img5.png" alt=""></a>
+                    <div class="item-inner-info">
+                      <div class="item-time">10:32</div>
+                      <a href="#" class="item-name">Бензиновая диета: на сколько подорожают продукты</a>
+                      <a href="#" class="item-auth">ТАСС</a>
+                      <div class="item-prev">Ситуация на российском рынке топлива грозит простым потребителям ростом цен в магазинах, в первую... </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="info-item important-mark">
-                  <div class="top-mark-title">Новости ДОМ2</div>
+                  <div class="top-mark-title">Медиаметрикс</div>
                   <div class="item-inner">
                     <div class="item-inner-info">
                         <ul class="links-list">
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>«Кинопоиск» назвал лучшие сериалы года…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>Инцидент с упавшим во время рейса кондуктором прокомментировали в ИПОПАТ…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>Скончалась девушка, выпавшая из окна многоэтажки на Соминке…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>ВС разъяснил, когда опьянение не является отягчающим обстоятельством…</span></a></li>
-                          <li><a href="#"> <img src="images/favicons/fa6.png" alt=""> <span class="item-time">10:32.</span> <span>В Британии сняли с мели российский сухогруз…</span></a></li>
-
+                          <li><a href="#"> <img src="images/favicons/fa1.png" alt=""> <span class="item-time">10:32.</span> <span>«Кинопоиск» назвал лучшие сериалы года…</span></a></li>
+                          <li><a href="#"> <img src="images/favicons/fa2.png" alt=""> <span class="item-time">10:32.</span> <span>Инцидент с упавшим во время рейса кондуктором прокомментировали в ИПОПАТ…</span></a></li>
+                          <li><a href="#"> <img src="images/favicons/fa3.png" alt=""> <span class="item-time">10:32.</span> <span>Скончалась девушка, выпавшая из окна многоэтажки на Соминке…</span></a></li>
+                          <li><a href="#"> <img src="images/favicons/fa4.png" alt=""> <span class="item-time">10:32.</span> <span>ВС разъяснил, когда опьянение не является отягчающим обстоятельством…</span></a></li>
+                          <li><a href="#"> <img src="images/favicons/fa5.png" alt=""> <span class="item-time">10:32.</span> <span>В Британии сняли с мели российский сухогруз…</span></a></li>
+                          <li><a href="#"> <img src="images/favicons/fa2.png" alt=""> <span class="item-time">10:32.</span> <span>«Кинопоиск» назвал лучшие сериалы года…</span></a></li>
                         </ul>
-                    </div>
-                    <div class="bottom-info-inner">
-                      <div class="bi-inner">
-                        <a href="#">
-                          <img src="images/dom2.png" alt=""><span>dom2.ru</span><i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <!--//3 ITEMS TOP-->
+            <div class="middle-banner m-tb-25">
+              <img src="images/banner.png" alt="">
+            </div>
+
 
           </div>
         </div>
@@ -529,10 +474,12 @@
     </div>
     <!--//FOOTER-->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <!--FlexSlider-->
+    <script type="text/javascript" src="flexslider/jquery.flexslider-min.js"></script>
+    <link rel="stylesheet" href="flexslider/flexslider.css">
 
   </body>
 </html>
